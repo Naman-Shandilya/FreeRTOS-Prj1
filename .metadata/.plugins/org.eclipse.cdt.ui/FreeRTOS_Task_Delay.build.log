@@ -1,0 +1,23 @@
+17:38:44 **** Incremental Build of configuration Debug for project FreeRTOS_Task_Delay ****
+make -j4 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Task_Delay\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Task_Delay/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Task_Delay/Config" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Task_Delay/Third_party/FreeRTOS/ORG/Source/include" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Task_Delay/Third_party/FreeRTOS/ORG/Source/portable/GCC/ARM_CM4F" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Task_Delay/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Task_Delay/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Task_Delay/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: FreeRTOS_Task_Delay.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Task_Delay/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "FreeRTOS_Task_Delay.elf" @"objects.list"   -lm
+Finished building target: FreeRTOS_Task_Delay.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "FreeRTOS_Task_Delay.elf" "FreeRTOS_Task_Delay.bin"
+arm-none-eabi-size "FreeRTOS_Task_Delay.elf"
+   text	   data	    bss	    dec	    hex	filename
+  36144	   2516	  78384	 117044	  1c934	FreeRTOS_Task_Delay.elf
+ 
+
+17:38:46 Build Finished (took 2s.672ms)
+
