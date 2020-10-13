@@ -1,0 +1,18 @@
+/*
+ * leds.c
+ */
+
+#include"leds.h"
+
+void LEDsInit(void)
+{
+	//GPIO structure used to initialize LED port
+	GPIO_InitTypeDef GPIO_InitStructure;
+	//Enables the GPIO peripheral clock
+	RCC_APB2PeriphClockCmd(LEDPORTCLK, ENABLE);
+	//select pins to initialize lED
+	GPIO_InitStructure.GPIO_Pin = LED1 | LED2 | LED3 | LED4 | LED5;
+	//select output push pull mode
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
+
+}

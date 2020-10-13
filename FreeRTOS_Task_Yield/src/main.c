@@ -44,7 +44,7 @@ int main(void)
 
 void vTask(void * pvParams)
 {
-	volatile unsigned int i = 0;
+	//volatile unsigned int i = 0;
 	const int * tParam = (const int *)pvParams;
 	while(1)
 	{

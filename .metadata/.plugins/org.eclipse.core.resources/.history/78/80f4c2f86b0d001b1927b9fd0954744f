@@ -1,0 +1,15 @@
+/*
+ * usart.c
+ */
+
+#include"usart.h"
+
+void Usart2Init(void)
+{
+	USART_InitTypeDef USART_InitStructure;
+	GPIO_InitTypeDef GPIO_InitStructure;
+
+	// Peripheral Clock Enable--------------
+	// Enabling the GPIO clock--------------
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
+}
