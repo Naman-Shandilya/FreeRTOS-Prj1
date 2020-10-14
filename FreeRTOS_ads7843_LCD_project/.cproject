@@ -77,18 +77,28 @@
 							<option id="fr.ac6.managedbuild.option.gnu.cross.fpu.101686803.1080850375" name="Floating point hardware" superClass="fr.ac6.managedbuild.option.gnu.cross.fpu.101686803"/>
 							<option id="fr.ac6.managedbuild.option.gnu.cross.floatabi.1456598159.1422000972" name="Floating-point ABI" superClass="fr.ac6.managedbuild.option.gnu.cross.floatabi.1456598159"/>
 							<option id="fr.ac6.managedbuild.option.gnu.cross.board.784342497.789269724" name="Board" superClass="fr.ac6.managedbuild.option.gnu.cross.board.784342497"/>
-							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.124730975" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.870746969"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.managedbuild.targetPlatform.gnu.cross" isAbstract="false" osList="all" superClass="fr.ac6.managedbuild.targetPlatform.gnu.cross"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.124730975" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.870746969">
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1033194589" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.611902213" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1091178940" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.187310241"/>
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.1047097303" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker.693386076"/>
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.1256741474" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.15239547"/>
 							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.1916620541" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver.642755666"/>
-							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.1682343056" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.974543266"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.1682343056" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.974543266">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.393348424" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.1951647826" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.99695674.402020726" name="mytasks.h" rcbsApplicability="disable" resourcePath="Buttons/mytasks.h" toolsToInvoke=""/>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Buttons"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Config"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Lcd"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Leds"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="SpiFlash"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="StdPeriph_Driver"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Third_party"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Usart"/>
