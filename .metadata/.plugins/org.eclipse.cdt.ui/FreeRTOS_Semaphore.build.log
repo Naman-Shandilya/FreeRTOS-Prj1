@@ -1,0 +1,51 @@
+16:56:08 **** Build of configuration Debug for project FreeRTOS_Semaphore ****
+make -j4 all 
+Building file: ../startup/startup_stm32.s
+Building file: ../src/main.c
+Building file: ../src/syscalls.c
+Building file: ../src/system_stm32f4xx.c
+Invoking: MCU GCC Assembler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Semaphore\Debug
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Semaphore\Debug
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/CMSIS/core" -g -o "startup/startup_stm32.o" "../startup/startup_stm32.s"
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Semaphore\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/syscalls.d" -MT"src/syscalls.o" -o "src/syscalls.o" "../src/syscalls.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Semaphore\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/system_stm32f4xx.d" -MT"src/system_stm32f4xx.o" -o "src/system_stm32f4xx.o" "../src/system_stm32f4xx.c"
+Finished building: ../startup/startup_stm32.s
+../src/main.c:13:9: fatal error: FreeRTOS.h: No such file or directory
+ #include"FreeRTOS.h"
+         ^~~~~~~~~~~~
+compilation terminated.
+ 
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+Building file: ../Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.c
+Invoking: MCU GCC Compiler
+../src/system_stm32f4xx.c: In function 'SetSysClock':
+../src/system_stm32f4xx.c:760:5: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+     while ((RCC->CFGR & (uint32_t)RCC_CFGR_SWS ) != RCC_CFGR_SWS_PLL);
+     ^~~~~
+../src/system_stm32f4xx.c:761:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     {
+     ^
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Semaphore\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Semaphore/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.d" -MT"Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.o" -o "Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.o" "../Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.c"
+Finished building: ../src/syscalls.c
+ 
+../Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.c:42:10: fatal error: FreeRTOS.h: No such file or directory
+ #include "FreeRTOS.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+Third_party/FreeRTOS/ORG/Source/portable/MemMang/subdir.mk:18: recipe for target 'Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.o' failed
+make: *** [Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.o] Error 1
+Finished building: ../src/system_stm32f4xx.c
+ 
+
+16:56:10 Build Finished (took 1s.947ms)
+

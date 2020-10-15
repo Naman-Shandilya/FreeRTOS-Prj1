@@ -1,35 +1,176 @@
-17:53:38 **** Incremental Build of configuration Debug for project FreeRTOS_ads7843_LCD_project ****
+18:05:55 **** Incremental Build of configuration Debug for project FreeRTOS_Timer_Tick ****
 make -j4 all 
 Building file: ../src/main.c
-Building file: ../Utilities/delay.c
 Invoking: MCU GCC Compiler
-Building file: ../Usart/usart.c
-Building file: ../Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.c
+Building file: ../Third_party/FreeRTOS/ORG/Source/list.c
+Building file: ../Third_party/FreeRTOS/ORG/Source/queue.c
+Building file: ../Third_party/FreeRTOS/ORG/Source/stream_buffer.c
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Timer_Tick\Debug
 Invoking: MCU GCC Compiler
-D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_ads7843_LCD_project\Debug
 Invoking: MCU GCC Compiler
 Invoking: MCU GCC Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Config" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Third_party/FreeRTOS/ORG/Source/include" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Third_party/FreeRTOS/ORG/Source/portable/GCC/ARM_CM4F" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_ads7843_LCD_project\Debug
-D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_ads7843_LCD_project\Debug
-D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_ads7843_LCD_project\Debug
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Config" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Third_party/FreeRTOS/ORG/Source/include" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Third_party/FreeRTOS/ORG/Source/portable/GCC/ARM_CM4F" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Utilities/delay.d" -MT"Utilities/delay.o" -o "Utilities/delay.o" "../Utilities/delay.c"
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Config" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Third_party/FreeRTOS/ORG/Source/include" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Third_party/FreeRTOS/ORG/Source/portable/GCC/ARM_CM4F" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Usart/usart.d" -MT"Usart/usart.o" -o "Usart/usart.o" "../Usart/usart.c"
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Config" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Third_party/FreeRTOS/ORG/Source/include" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/Third_party/FreeRTOS/ORG/Source/portable/GCC/ARM_CM4F" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_ads7843_LCD_project/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.d" -MT"Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.o" -o "Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.o" "../Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.c"
-../Usart/usart.c:6:9: fatal error: mytask.h: No such file or directory
- #include"mytask.h"
-         ^~~~~~~~~~
-compilation terminated.
-../src/main.c:13:10: fatal error: mytasks.h: No such file or directory
- #include "mytasks.h"
-          ^~~~~~~~~~~
-compilation terminated.
-Usart/subdir.mk:18: recipe for target 'Usart/usart.o' failed
-make: *** [Usart/usart.o] Error 1
-make: *** Waiting for unfinished jobs....
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Config" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Third_party/FreeRTOS/ORG/Source/include" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Third_party/FreeRTOS/ORG/Source/portable/GCC/ARM_CM4F" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Timer_Tick\Debug
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Timer_Tick\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Config" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Third_party/FreeRTOS/ORG/Source/include" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Third_party/FreeRTOS/ORG/Source/portable/GCC/ARM_CM4F" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third_party/FreeRTOS/ORG/Source/list.d" -MT"Third_party/FreeRTOS/ORG/Source/list.o" -o "Third_party/FreeRTOS/ORG/Source/list.o" "../Third_party/FreeRTOS/ORG/Source/list.c"
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Timer_Tick\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Config" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Third_party/FreeRTOS/ORG/Source/include" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Third_party/FreeRTOS/ORG/Source/portable/GCC/ARM_CM4F" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third_party/FreeRTOS/ORG/Source/stream_buffer.d" -MT"Third_party/FreeRTOS/ORG/Source/stream_buffer.o" -o "Third_party/FreeRTOS/ORG/Source/stream_buffer.o" "../Third_party/FreeRTOS/ORG/Source/stream_buffer.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Config" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Third_party/FreeRTOS/ORG/Source/include" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/Third_party/FreeRTOS/ORG/Source/portable/GCC/ARM_CM4F" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Timer_Tick/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Third_party/FreeRTOS/ORG/Source/queue.d" -MT"Third_party/FreeRTOS/ORG/Source/queue.o" -o "Third_party/FreeRTOS/ORG/Source/queue.o" "../Third_party/FreeRTOS/ORG/Source/queue.c"
+../src/main.c: In function 'vPortSetupTimerInterrupt':
+../src/main.c:19:45: error: expected expression before '=' token
+ #define __setbit(__reg, __bit)   ((__reg) | = (1U << (__bit)))
+                                             ^
+../src/main.c:56:2: note: in expansion of macro '__setbit'
+  __setbit(RCC->APB1ENR, 0U);
+  ^~~~~~~~
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:63:2: note: in expansion of macro '__clearbit'
+  __clearbit(TIM2->CR1, 4U);
+  ^~~~~~~~~~
+../src/main.c:19:45: error: expected expression before '=' token
+ #define __setbit(__reg, __bit)   ((__reg) | = (1U << (__bit)))
+                                             ^
+../src/main.c:81:6: note: in expansion of macro '__setbit'
+      __setbit(TIM2->DIER, 0U);
+      ^~~~~~~~
+../src/main.c:19:45: error: expected expression before '=' token
+ #define __setbit(__reg, __bit)   ((__reg) | = (1U << (__bit)))
+                                             ^
+../src/main.c:91:7: note: in expansion of macro '__setbit'
+       __setbit(TIM2->CR1, 0U);
+       ^~~~~~~~
+../src/main.c: In function 'TIM2_IRQHandler':
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:96:2: note: in expansion of macro '__clearbit'
+  __clearbit(TIM2->SR, 0U);
+  ^~~~~~~~~~
+../src/main.c: In function 'myTask1':
+../src/main.c:23:47: error: expected expression before '=' token
+ #define __togglebit(__reg, __bit)  ((__reg) ^ = (1U << (__bit)))
+                                               ^
+../src/main.c:108:3: note: in expansion of macro '__togglebit'
+   __togglebit(GPIOD->ODR, 14);
+   ^~~~~~~~~~~
+../src/main.c: In function 'myTask2':
+../src/main.c:120:15: error: 'GPIO' undeclared (first use in this function); did you mean 'GPIOC'?
+   __togglebit(GPIO->ODR, 15);
+               ^
+../src/main.c:23:38: note: in definition of macro '__togglebit'
+ #define __togglebit(__reg, __bit)  ((__reg) ^ = (1U << (__bit)))
+                                      ^~~~~
+../src/main.c:120:15: note: each undeclared identifier is reported only once for each function it appears in
+   __togglebit(GPIO->ODR, 15);
+               ^
+../src/main.c:23:38: note: in definition of macro '__togglebit'
+ #define __togglebit(__reg, __bit)  ((__reg) ^ = (1U << (__bit)))
+                                      ^~~~~
+../src/main.c:23:47: error: expected expression before '=' token
+ #define __togglebit(__reg, __bit)  ((__reg) ^ = (1U << (__bit)))
+                                               ^
+../src/main.c:120:3: note: in expansion of macro '__togglebit'
+   __togglebit(GPIO->ODR, 15);
+   ^~~~~~~~~~~
+../src/main.c: In function 'configureLEDs':
+../src/main.c:19:45: error: expected expression before '=' token
+ #define __setbit(__reg, __bit)   ((__reg) | = (1U << (__bit)))
+                                             ^
+../src/main.c:127:2: note: in expansion of macro '__setbit'
+  __setbit(RCC->AHB1ENR, 3);
+  ^~~~~~~~
+../src/main.c:19:45: error: expected expression before '=' token
+ #define __setbit(__reg, __bit)   ((__reg) | = (1U << (__bit)))
+                                             ^
+../src/main.c:129:2: note: in expansion of macro '__setbit'
+  __setbit(GPIOD->MODER, 30);
+  ^~~~~~~~
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:130:2: note: in expansion of macro '__clearbit'
+  __clearbit(GPIOD->MODER, 31);
+  ^~~~~~~~~~
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:132:2: note: in expansion of macro '__clearbit'
+  __clearbit(GPIOD->OTYPER, 15);
+  ^~~~~~~~~~
+../src/main.c:19:45: error: expected expression before '=' token
+ #define __setbit(__reg, __bit)   ((__reg) | = (1U << (__bit)))
+                                             ^
+../src/main.c:134:2: note: in expansion of macro '__setbit'
+  __setbit(GPIOD->OSPEEDR, 30);
+  ^~~~~~~~
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:135:2: note: in expansion of macro '__clearbit'
+  __clearbit(GPIOD->OSPEEDR, 31);
+  ^~~~~~~~~~
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:137:2: note: in expansion of macro '__clearbit'
+  __clearbit(GPIOD->PUPDR, 30);
+  ^~~~~~~~~~
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:138:2: note: in expansion of macro '__clearbit'
+  __clearbit(GPIOD->PUPDR, 31);
+  ^~~~~~~~~~
+../src/main.c:19:45: error: expected expression before '=' token
+ #define __setbit(__reg, __bit)   ((__reg) | = (1U << (__bit)))
+                                             ^
+../src/main.c:140:3: note: in expansion of macro '__setbit'
+   __setbit(GPIOD->MODER, 28);
+   ^~~~~~~~
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:141:3: note: in expansion of macro '__clearbit'
+   __clearbit(GPIOD->MODER, 29);
+   ^~~~~~~~~~
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:143:3: note: in expansion of macro '__clearbit'
+   __clearbit(GPIOD->OTYPER, 14);
+   ^~~~~~~~~~
+../src/main.c:19:45: error: expected expression before '=' token
+ #define __setbit(__reg, __bit)   ((__reg) | = (1U << (__bit)))
+                                             ^
+../src/main.c:145:3: note: in expansion of macro '__setbit'
+   __setbit(GPIOD->OSPEEDR, 28);
+   ^~~~~~~~
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:146:3: note: in expansion of macro '__clearbit'
+   __clearbit(GPIOD->OSPEEDR, 29);
+   ^~~~~~~~~~
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:148:3: note: in expansion of macro '__clearbit'
+   __clearbit(GPIOD->PUPDR, 28);
+   ^~~~~~~~~~
+../src/main.c:21:46: error: expected expression before '=' token
+ #define __clearbit(__reg, __bit)  ((__reg) & = (~(1U << (__bit))))
+                                              ^
+../src/main.c:149:3: note: in expansion of macro '__clearbit'
+   __clearbit(GPIOD->PUPDR, 29);
+   ^~~~~~~~~~
 src/subdir.mk:24: recipe for target 'src/main.o' failed
 make: *** [src/main.o] Error 1
-Finished building: ../Third_party/FreeRTOS/ORG/Source/portable/MemMang/heap_4.c
+make: *** Waiting for unfinished jobs....
+Finished building: ../Third_party/FreeRTOS/ORG/Source/stream_buffer.c
+Finished building: ../Third_party/FreeRTOS/ORG/Source/queue.c
+Finished building: ../Third_party/FreeRTOS/ORG/Source/list.c
  
-Finished building: ../Utilities/delay.c
+ 
  

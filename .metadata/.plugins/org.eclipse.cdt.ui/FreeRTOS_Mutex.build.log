@@ -1,0 +1,41 @@
+17:14:07 **** Build of configuration Debug for project FreeRTOS_Mutex ****
+make -j4 all 
+Building file: ../src/main.c
+Building file: ../startup/startup_stm32.s
+Building file: ../src/system_stm32f4xx.c
+Building file: ../src/syscalls.c
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Assembler
+Invoking: MCU GCC Compiler
+Invoking: MCU GCC Compiler
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Mutex\Debug
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Mutex\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/CMSIS/core" -g -o "startup/startup_stm32.o" "../startup/startup_stm32.s"
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Mutex\Debug
+D:\PENDRIVE\EMBEDDED_SYSTEM\STM32_PROJECTS\FreeRTOS_Project\FreeRTOS_Simple_Task\FreeRTOS_Mutex\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/system_stm32f4xx.d" -MT"src/system_stm32f4xx.o" -o "src/system_stm32f4xx.o" "../src/system_stm32f4xx.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/StdPeriph_Driver/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/inc" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/CMSIS/device" -I"D:/PENDRIVE/EMBEDDED_SYSTEM/STM32_PROJECTS/FreeRTOS_Project/FreeRTOS_Simple_Task/FreeRTOS_Mutex/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/syscalls.d" -MT"src/syscalls.o" -o "src/syscalls.o" "../src/syscalls.c"
+../src/system_stm32f4xx.c: In function 'SetSysClock':
+../src/system_stm32f4xx.c:760:5: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+     while ((RCC->CFGR & (uint32_t)RCC_CFGR_SWS ) != RCC_CFGR_SWS_PLL);
+     ^~~~~
+../src/system_stm32f4xx.c:761:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+     {
+     ^
+../src/main.c:13:10: fatal error: FreeRTOS.h: No such file or directory
+ #include "FreeRTOS.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+Finished building: ../startup/startup_stm32.s
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+ 
+Finished building: ../src/syscalls.c
+ 
+Finished building: ../src/system_stm32f4xx.c
+ 
+
+17:14:08 Build Finished (took 1s.832ms)
+
